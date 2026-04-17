@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "Engineering portfolio platform",
+    "title": "Systems shaped with architectural judgment and product intent.",
+    "description": "DevJR presents engineering work through maintainable systems, operational clarity and software decisions designed to hold up beyond the first release.",
+    "primaryCta": "Explore projects",
+    "secondaryCta": "Read the blog"
+  },
+  "sections": {
+    "focusEyebrow": "Focus areas",
+    "focusTitle": "Structured around software that supports real operations",
+    "focusDescription": "The experience prioritizes context, trade-offs and delivery intent so each section is easy to scan and anchored in how systems behave in production.",
+    "platformEyebrow": "Platform blueprint",
+    "platformTitle": "A clear boundary between product, services and data",
+    "platformDescription": "The narrative stays grounded in system structure rather than isolated features, reinforcing a maintainable and technically credible point of view.",
+    "featuredProjects": "Featured engineering work",
+    "featuredProjectsDescription": "Selected projects with architecture context, operational metrics and delivery intent.",
+    "featuredPosts": "Technical writing",
+    "featuredPostsDescription": "Notes on backend design, data movement, observability and pragmatic architecture.",
+    "operatingEyebrow": "Operating principles",
+    "operatingTitle": "Engineering framed around long-term system quality",
+    "operatingDescription": "The portfolio emphasizes the signals that matter when software must stay understandable, observable and useful under real operational pressure.",
+    "operatingSignals": "Observable by design",
+    "operatingSignalsDescription": "Work is shaped so teams can read system health, delivery impact and operational drift before problems become expensive.",
+    "operatingBoundaries": "Clear service boundaries",
+    "operatingBoundariesDescription": "Interfaces, domain rules and supporting workflows are separated with enough discipline to keep change local and intent visible.",
+    "operatingOutcomes": "Product-facing outcomes",
+    "operatingOutcomesDescription": "The goal is not shipping features in isolation, but supporting teams and operators with software that remains dependable over time."
+  }
+}

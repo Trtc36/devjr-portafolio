@@ -1,0 +1,22 @@
+{
+  "listing": {
+    "eyebrow": "Indice de proyectos",
+    "title": "Sistemas disenados para operaciones reales",
+    "description": "Catalogo estructurado de plataformas logisticas, pipelines de datos y arquitectura de software empresarial.",
+    "catalogLabel": "Proyectos visibles",
+    "focusLabel": "Modo de lectura",
+    "focusDescription": "Cada card expone resumen, stack, metricas y una accion clara para poder escanear el catalogo antes de entrar al detalle.",
+    "filtersLabel": "Filtrar por dominio",
+    "filtersDescription": "Reduce el catalogo por dominio o area de foco sin perder la estructura general de la pagina."
+  },
+  "detail": {
+    "eyebrow": "Detalle del proyecto",
+    "tags": "Dominios y senales",
+    "problem": "Problema",
+    "solution": "Solucion",
+    "architecture": "Arquitectura",
+    "impact": "Impacto",
+    "stack": "Stack",
+    "gallery": "Artefactos"
+  }
+}

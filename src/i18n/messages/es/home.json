@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "Plataforma de portafolio de ingenieria",
+    "title": "Sistemas definidos con criterio arquitectonico e intencion de producto.",
+    "description": "DevJR presenta trabajo de ingenieria a traves de sistemas mantenibles, claridad operativa y decisiones de software pensadas para sostenerse mas alla de la primera entrega.",
+    "primaryCta": "Explorar proyectos",
+    "secondaryCta": "Leer el blog"
+  },
+  "sections": {
+    "focusEyebrow": "Areas de foco",
+    "focusTitle": "Estructurado alrededor de software para operaciones reales",
+    "focusDescription": "La experiencia prioriza contexto, trade-offs e intencion de entrega para que cada seccion pueda escanearse rapido y quede anclada al comportamiento real del sistema.",
+    "platformEyebrow": "Blueprint de plataforma",
+    "platformTitle": "Un limite claro entre producto, servicios y datos",
+    "platformDescription": "La narrativa se sostiene sobre estructura de sistema, no sobre features aisladas, reforzando un punto de vista mantenible y tecnicamente creible.",
+    "featuredProjects": "Trabajo de ingenieria destacado",
+    "featuredProjectsDescription": "Proyectos seleccionados con contexto arquitectonico, metricas operativas e intencion de entrega.",
+    "featuredPosts": "Escritura tecnica",
+    "featuredPostsDescription": "Notas sobre diseno backend, movimiento de datos, observabilidad y arquitectura pragmatica.",
+    "operatingEyebrow": "Principios operativos",
+    "operatingTitle": "Ingenieria planteada desde la calidad de sistema a largo plazo",
+    "operatingDescription": "El portafolio enfatiza las senales que importan cuando el software debe seguir siendo entendible, observable y util bajo presion operativa real.",
+    "operatingSignals": "Observable desde el diseno",
+    "operatingSignalsDescription": "El trabajo se modela para que los equipos puedan leer salud del sistema, impacto de entrega y deriva operativa antes de que el costo aumente.",
+    "operatingBoundaries": "Limites de servicio claros",
+    "operatingBoundariesDescription": "Interfaces, reglas de dominio y workflows de soporte se separan con la disciplina suficiente para mantener el cambio local y la intencion visible.",
+    "operatingOutcomes": "Resultados orientados a producto",
+    "operatingOutcomesDescription": "La meta no es liberar features de forma aislada, sino apoyar a equipos y operadores con software que siga siendo confiable en el tiempo."
+  }
+}

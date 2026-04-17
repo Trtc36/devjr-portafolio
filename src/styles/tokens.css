@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light;
+  --background: 210 45% 97%;
+  --surface: 210 40% 99%;
+  --elevated: 211 44% 98%;
+  --border: 211 28% 84%;
+  --border-strong: 210 32% 73%;
+  --text-primary: 221 40% 16%;
+  --text-secondary: 216 26% 41%;
+  --accent: 210 74% 44%;
+  --accent-strong: 214 79% 34%;
+  --accent-soft: 212 70% 76%;
+  --accent-foreground: 210 40% 98%;
+  --surface-highlight: 209 72% 94%;
+  --muted: 210 52% 93%;
+  --muted-foreground: var(--text-secondary);
+  --foreground: var(--text-primary);
+  --foreground-soft: 220 24% 33%;
+  --card: var(--surface);
+  --card-foreground: var(--text-primary);
+  --surface-elevated: var(--elevated);
+  --ring: var(--accent);
+  --shadow-strong: 216 49% 22%;
+  --shadow-soft: 212 38% 42%;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: 221 52% 9%;
+  --surface: 221 42% 12%;
+  --elevated: 221 38% 15%;
+  --border: 219 28% 24%;
+  --border-strong: 214 33% 34%;
+  --text-primary: 210 34% 95%;
+  --text-secondary: 214 26% 76%;
+  --accent: 206 88% 62%;
+  --accent-strong: 211 92% 70%;
+  --accent-soft: 212 56% 34%;
+  --accent-foreground: 220 48% 10%;
+  --surface-highlight: 217 54% 18%;
+  --muted: 220 34% 14%;
+  --muted-foreground: var(--text-secondary);
+  --foreground: var(--text-primary);
+  --foreground-soft: 212 28% 84%;
+  --card: var(--surface);
+  --card-foreground: var(--text-primary);
+  --surface-elevated: var(--elevated);
+  --ring: var(--accent);
+  --shadow-strong: 220 78% 4%;
+  --shadow-soft: 218 58% 9%;
+}

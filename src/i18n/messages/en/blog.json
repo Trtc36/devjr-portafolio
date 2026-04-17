@@ -1,0 +1,17 @@
+{
+  "listing": {
+    "eyebrow": "Technical journal",
+    "title": "Architecture notes with delivery context",
+    "description": "Writing focused on backend systems, data flows, observability and software design trade-offs.",
+    "volumeLabel": "Articles",
+    "editorialLabel": "Editorial style",
+    "editorialDescription": "Entries are arranged like a readable index so visitors can compare topics, recency and intent without a noisy grid.",
+    "filtersLabel": "Filter by tag",
+    "filtersDescription": "Use tags to narrow the archive while keeping each article block readable."
+  },
+  "detail": {
+    "eyebrow": "Article detail",
+    "published": "Published",
+    "readTime": "Read time"
+  }
+}

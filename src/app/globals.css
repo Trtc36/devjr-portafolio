@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, hsla(var(--accent-soft), 0.18), transparent 28%),
+      radial-gradient(circle at top right, hsla(var(--surface-highlight), 0.72), transparent 24%),
+      linear-gradient(180deg, hsla(var(--background), 1) 0%, hsla(var(--background), 0.985) 100%);
+    color: hsl(var(--foreground));
+    font-family: var(--font-sans), sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  code,
+  pre {
+    font-family: var(--font-mono), monospace;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background: hsla(var(--accent), 0.26);
+    color: hsl(var(--foreground));
+  }
+
+  main {
+    display: block;
+  }
+}

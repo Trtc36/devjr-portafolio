@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Available for backend, data and platform conversations.",
+    "description": "The contact area is prepared for a future form-backed workflow. For now, it provides direct channels for serious collaboration."
+  },
+  "channels": {
+    "email": "Email",
+    "location": "Location",
+    "availability": "Availability"
+  }
+}

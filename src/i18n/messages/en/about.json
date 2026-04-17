@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "eyebrow": "Professional profile",
+    "title": "Engineering decisions that respect both systems and business.",
+    "description": "DevJR focuses on backend architecture, data operations and technical systems that help teams ship reliable software with operational clarity."
+  },
+  "sections": {
+    "philosophyTitle": "Working philosophy",
+    "philosophyBody": "Prefer explicit systems, measurable outcomes and maintainable delivery paths over novelty for its own sake.",
+    "approachTitle": "Delivery approach",
+    "approachBody": "Translate product needs into domain models, service boundaries, observability signals and operational leverage."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "name": "DevJR",
+    "tagline": "Sistemas, datos y arquitectura de software"
+  },
+  "nav": {
+    "home": "Resumen",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "about": "Sobre mi",
+    "contact": "Contacto"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "toggleToLight": "Cambiar a modo claro",
+    "toggleToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "EN",
+    "es": "ES"
+  },
+  "footer": {
+    "summary": "Producto de portafolio centrado en pensamiento arquitectonico, claridad operativa y sistemas de software disenados para mantenerse.",
+    "status": "Disponible para oportunidades en backend, plataforma e ingenieria de producto."
+  },
+  "common": {
+    "featured": "Destacado",
+    "viewAll": "Ver todo",
+    "readMore": "Leer mas",
+    "readArticle": "Leer articulo",
+    "projectDetails": "Detalle del proyecto",
+    "demo": "Demo",
+    "repository": "Repositorio",
+    "backToProjects": "Volver a proyectos",
+    "backToBlog": "Volver al blog",
+    "contactCta": "Disenemos software robusto para operaciones reales."
+  }
+}

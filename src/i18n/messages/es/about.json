@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "eyebrow": "Perfil profesional",
+    "title": "Decisiones de ingeniería que respetan tanto al sistema como al negocio.",
+    "description": "DevJR se enfoca en arquitectura backend, operaciones de datos y sistemas técnicos que ayudan a los equipos a entregar software confiable con claridad operativa."
+  },
+  "sections": {
+    "philosophyTitle": "Filosofía de trabajo",
+    "philosophyBody": "Priorizar sistemas explícitos, resultados medibles y rutas de entrega mantenibles por encima de la novedad por sí sola.",
+    "approachTitle": "Enfoque de entrega",
+    "approachBody": "Traducir necesidades de producto en modelos de dominio, límites de servicio, señales de observabilidad y apalancamiento operativo."
+  }
+}

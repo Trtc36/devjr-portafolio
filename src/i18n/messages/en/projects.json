@@ -1,0 +1,22 @@
+{
+  "listing": {
+    "eyebrow": "Project index",
+    "title": "Systems engineered for real operations",
+    "description": "A structured catalogue of logistics platforms, data pipelines and business software architecture.",
+    "catalogLabel": "Visible projects",
+    "focusLabel": "Reading mode",
+    "focusDescription": "Each card exposes summary, stack, metrics and a clear action so the catalogue can be scanned before opening details.",
+    "filtersLabel": "Filter by domain",
+    "filtersDescription": "Narrow the catalogue by domain or focus area without losing the high-level structure of the page."
+  },
+  "detail": {
+    "eyebrow": "Project detail",
+    "tags": "Domains and signals",
+    "problem": "Problem",
+    "solution": "Solution",
+    "architecture": "Architecture",
+    "impact": "Impact",
+    "stack": "Stack",
+    "gallery": "Artifacts"
+  }
+}

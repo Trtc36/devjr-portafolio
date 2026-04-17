@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "eyebrow": "Contacto",
+    "title": "Disponible para conversaciones sobre backend, datos y plataforma.",
+    "description": "La sección de contacto queda preparada para un flujo futuro con formulario. Por ahora, ofrece canales directos para colaboración seria."
+  },
+  "channels": {
+    "email": "Correo",
+    "location": "Ubicación",
+    "availability": "Disponibilidad"
+  }
+}

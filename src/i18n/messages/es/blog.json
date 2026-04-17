@@ -1,0 +1,17 @@
+{
+  "listing": {
+    "eyebrow": "Bitacora tecnica",
+    "title": "Notas de arquitectura con contexto de entrega",
+    "description": "Contenido enfocado en sistemas backend, flujos de datos, observabilidad y decisiones de diseno de software.",
+    "volumeLabel": "Articulos",
+    "editorialLabel": "Formato editorial",
+    "editorialDescription": "Las entradas se organizan como un indice legible para comparar temas, vigencia e intencion sin una grilla ruidosa.",
+    "filtersLabel": "Filtrar por tag",
+    "filtersDescription": "Usa tags para acotar el archivo sin perder legibilidad en cada bloque de articulo."
+  },
+  "detail": {
+    "eyebrow": "Detalle del articulo",
+    "published": "Publicado",
+    "readTime": "Tiempo de lectura"
+  }
+}
