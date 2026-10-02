@@ -30,6 +30,9 @@ export default async function Footer({ locale }: { locale: AppLocale }) {
             <Link href="/blog" locale={locale} className="transition-colors hover:text-[hsl(var(--foreground))]">
               {t("nav.blog")}
             </Link>
+            <Link href="/about" locale={locale} className="transition-colors hover:text-[hsl(var(--foreground))]">
+              {t("nav.about")}
+            </Link>
             <Link href="/contact" locale={locale} className="transition-colors hover:text-[hsl(var(--foreground))]">
               {t("nav.contact")}
             </Link>

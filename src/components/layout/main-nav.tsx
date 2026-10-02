@@ -3,14 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-
-const navItems = [
-  { href: "/", label: "nav.home" },
-  { href: "/projects", label: "nav.projects" },
-  { href: "/blog", label: "nav.blog" },
-  { href: "/about", label: "nav.about" },
-  { href: "/contact", label: "nav.contact" },
-] as const;
+import { navItems } from "./nav-items";
 
 export default function MainNav() {
   const t = useTranslations("common");
