@@ -19,4 +19,15 @@ describe("upsertBlogPostSchema", () => {
   it("rejects a non-string element in tagIds", () => {
     expect(upsertBlogPostSchema.safeParse({ ...validBody, tagIds: [1] }).success).toBe(false);
   });
+
+  it("rejects contentJson that is not valid JSON", () => {
+    expect(
+      upsertBlogPostSchema.safeParse({ ...validBody, contentJson: "not valid json" }).success,
+    ).toBe(false);
+  });
+
+  it("rejects contentJson that parses to a non-object JSON value", () => {
+    expect(upsertBlogPostSchema.safeParse({ ...validBody, contentJson: "42" }).success).toBe(false);
+    expect(upsertBlogPostSchema.safeParse({ ...validBody, contentJson: "null" }).success).toBe(false);
+  });
 });

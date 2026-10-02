@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { toAdminErrorResponse } from "@/features/admin/lib/admin-route";
 import { apiEndpoints, requestAdmin } from "@/features/admin/lib/admin-api";
+import { getAdminAccessToken } from "@/features/auth/lib/session";
+import { ApiError } from "@/services/http/api-error";
 import { upsertBlogPostSchema } from "@/features/blog/lib/blog-admin.schema";
 import {
   parseBlogContentJson,
@@ -26,6 +28,12 @@ export async function PUT(
   { params }: { params: Promise<{ id: string }> },
 ) {
   try {
+    const token = await getAdminAccessToken();
+
+    if (!token) {
+      throw new ApiError("Session expired.", 401);
+    }
+
     const { id } = await params;
     const body = await request.json();
     const result = upsertBlogPostSchema.safeParse(body);

@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { toAdminErrorResponse } from "@/features/admin/lib/admin-route";
 import { apiEndpoints, requestAdmin } from "@/features/admin/lib/admin-api";
+import { getAdminAccessToken } from "@/features/auth/lib/session";
+import { ApiError } from "@/services/http/api-error";
 import { createUserSchema } from "@/features/users/lib/user-admin.schema";
 
 export async function GET() {
@@ -14,6 +16,12 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
+    const token = await getAdminAccessToken();
+
+    if (!token) {
+      throw new ApiError("Session expired.", 401);
+    }
+
     const body = await request.json();
     const result = createUserSchema.safeParse(body);
 

@@ -5,8 +5,13 @@ vi.mock("@/features/admin/lib/admin-api", () => ({
   requestAdmin: vi.fn().mockResolvedValue({ id: "1" }),
 }));
 
+vi.mock("@/features/auth/lib/session", () => ({
+  getAdminAccessToken: vi.fn().mockResolvedValue("test-token"),
+}));
+
 import { POST } from "./route";
 import { requestAdmin } from "@/features/admin/lib/admin-api";
+import { getAdminAccessToken } from "@/features/auth/lib/session";
 
 const validBody = {
   title: "t",
@@ -27,6 +32,14 @@ const validBody = {
 };
 
 describe("POST /api/admin/projects", () => {
+  it("returns 401 before validating the body when there is no admin session", async () => {
+    vi.mocked(getAdminAccessToken).mockResolvedValueOnce(null);
+    const { title, ...rest } = validBody;
+    const res = await POST(new Request("http://x", { method: "POST", body: JSON.stringify(rest) }));
+    expect(res.status).toBe(401);
+    expect(requestAdmin).not.toHaveBeenCalled();
+  });
+
   it("returns 400 and does not call requestAdmin for an invalid body", async () => {
     const { title, ...rest } = validBody;
     const res = await POST(new Request("http://x", { method: "POST", body: JSON.stringify(rest) }));
