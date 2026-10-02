@@ -19,6 +19,7 @@ const mono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "DevJR",
   description: "Systems, Data & Software Architecture",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://devjr.example.com"),
 };
 
 export default function RootLayout({
