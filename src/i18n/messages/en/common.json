@@ -39,5 +39,17 @@
     "backToProjects": "Back to projects",
     "backToBlog": "Back to blog",
     "contactCta": "Let's design robust software that moves real operations."
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "We hit an unexpected error loading this page. You can try again, or head back to the homepage.",
+    "retry": "Try again",
+    "backHome": "Back to home"
+  },
+  "notFound": {
+    "title": "We couldn't find that page",
+    "description": "The page you're looking for may have moved or no longer exists.",
+    "backHome": "Back to home",
+    "viewBlog": "View the blog"
   }
 }

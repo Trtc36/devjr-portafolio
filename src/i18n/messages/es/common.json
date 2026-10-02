@@ -39,5 +39,17 @@
     "backToProjects": "Volver a proyectos",
     "backToBlog": "Volver al blog",
     "contactCta": "Disenemos software robusto para operaciones reales."
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Hubo un error inesperado al cargar esta página. Puedes reintentar o volver al inicio.",
+    "retry": "Reintentar",
+    "backHome": "Volver al inicio"
+  },
+  "notFound": {
+    "title": "No encontramos esta página",
+    "description": "La página que buscas pudo haberse movido o ya no existe.",
+    "backHome": "Volver al inicio",
+    "viewBlog": "Ver el blog"
   }
 }
