@@ -8,7 +8,10 @@
     "projects": "Proyectos",
     "blog": "Blog",
     "about": "Sobre mi",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menuTitle": "Menú de navegación"
   },
   "theme": {
     "light": "Claro",

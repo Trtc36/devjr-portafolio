@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { BrandMark } from "@/components/brand-mark";
 import LanguageSwitcher from "@/components/language-switcher";
 import MainNav from "@/components/layout/main-nav";
+import MobileNav from "@/components/layout/mobile-nav";
 import ThemeToggle from "@/components/theme-toggle";
 import { Link } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
@@ -32,6 +33,7 @@ export default async function Header({ locale }: { locale: AppLocale }) {
 
         <div className="flex items-center gap-3 md:gap-5">
           <MainNav />
+          <MobileNav />
           <div className="flex items-center gap-2">
             <LanguageSwitcher />
             <ThemeToggle />

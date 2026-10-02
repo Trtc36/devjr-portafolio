@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@keyframes mobileNavOverlayIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes mobileNavOverlayOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes mobileNavPanelIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes mobileNavPanelOut { from { transform: translateX(0); } to { transform: translateX(100%); } }
+
 @layer base {
   * {
     border-color: hsl(var(--border));

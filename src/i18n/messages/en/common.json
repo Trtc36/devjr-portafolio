@@ -8,7 +8,10 @@
     "projects": "Projects",
     "blog": "Blog",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Navigation menu"
   },
   "theme": {
     "light": "Light",
