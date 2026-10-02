@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   sanitizeBlogContentDocument,
   type BlogContentDocument,
@@ -97,10 +98,13 @@ export function BlockRenderer({ content }: { content: BlogContentDocument }) {
 
             return (
               <figure key={key} className="space-y-3">
-                <img
+                <Image
                   src={imageUrl}
                   alt={block.data.caption || "Blog image"}
-                  className="w-full rounded-2xl border border-[hsl(var(--border))] object-cover"
+                  width={1200}
+                  height={675}
+                  sizes="100vw"
+                  className="h-auto w-full rounded-2xl border border-[hsl(var(--border))] object-cover"
                 />
                 {block.data.caption ? (
                   <figcaption
