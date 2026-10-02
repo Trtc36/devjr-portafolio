@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
@@ -18,12 +19,26 @@ export function EditorialPostRow({
 }) {
   return (
     <Card className="group h-full hover:border-[hsl(var(--accent-soft))] hover:shadow-[0_28px_56px_-34px_hsla(var(--shadow-strong),0.34)]">
-      <CardHeader className="space-y-4">
-        <div className="flex flex-wrap items-center gap-2">
-          {post.tags.map((tag) => (
-            <Badge key={tag.id}>{localizeCopy(tag.name, locale)}</Badge>
-          ))}
+      {post.coverImageUrl ? (
+        <div className="relative h-56 overflow-hidden border-b border-[hsl(var(--border))]">
+          <Image
+            src={post.coverImageUrl}
+            alt={localizeCopy(post.title, locale)}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+          />
         </div>
+      ) : null}
+
+      <CardHeader className="space-y-4">
+        {post.tags.length > 0 ? (
+          <div className="flex flex-wrap items-center gap-2">
+            {post.tags.map((tag) => (
+              <Badge key={tag.id}>{localizeCopy(tag.name, locale)}</Badge>
+            ))}
+          </div>
+        ) : null}
         <div className="space-y-3">
           <h3 className="text-2xl font-semibold tracking-tight">
             {localizeCopy(post.title, locale)}
@@ -37,6 +52,7 @@ export function EditorialPostRow({
       <CardContent className="flex flex-wrap items-center gap-4 text-sm text-[hsl(var(--muted-foreground))]">
         <span>{formatDate(post.publishedAt, locale)}</span>
         <span>{post.readTime}</span>
+        {post.authorUsername ? <span>@{post.authorUsername}</span> : null}
       </CardContent>
 
       <CardFooter className="border-t border-[hsl(var(--border))] pt-5">
