@@ -11,11 +11,6 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@editorjs/code": "^2.9.4",
-    "@editorjs/editorjs": "^2.31.6",
-    "@editorjs/header": "^2.8.8",
-    "@editorjs/image": "^2.10.3",
-    "@editorjs/list": "^2.0.9",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
