@@ -51,29 +51,11 @@ export function BlockRenderer({ content }: { content: BlogContentDocument }) {
               />
             );
           case "header": {
-            const level = Math.min(3, Math.max(1, block.data.level ?? 2));
-            if (level === 1) {
-              return (
-                <h1
-                  key={key}
-                  className="font-semibold tracking-tight text-[hsl(var(--foreground))]"
-                  dangerouslySetInnerHTML={renderInlineHtml(block.data.text)}
-                />
-              );
-            }
-
-            if (level === 3) {
-              return (
-                <h3
-                  key={key}
-                  className="font-semibold tracking-tight text-[hsl(var(--foreground))]"
-                  dangerouslySetInnerHTML={renderInlineHtml(block.data.text)}
-                />
-              );
-            }
+            const level = Math.min(3, Math.max(2, block.data.level ?? 2));
+            const HeadingTag = level === 3 ? "h3" : "h2";
 
             return (
-              <h2
+              <HeadingTag
                 key={key}
                 className="font-semibold tracking-tight text-[hsl(var(--foreground))]"
                 dangerouslySetInnerHTML={renderInlineHtml(block.data.text)}
