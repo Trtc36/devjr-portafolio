@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import { Card, CardContent, CardHeader } from "@/components/card";
-import { PageShell } from "@/components/page-shell";
-import { SectionShell } from "@/components/section-shell";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { PageShell } from "@/components/layout/page-shell";
+import { SectionShell } from "@/components/layout/section-shell";
 import type { AppLocale } from "@/i18n/routing";
 import { buildMetadata } from "@/lib/metadata";
 
